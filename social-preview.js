@@ -210,7 +210,7 @@ social_preview = new function()
 	* @param {string} "from" either empty string, "fb" or "tw"
 	* @return {string}
 	*/
-	this.tw = function(o, from)
+	this.big = function(o, from)
 	{
 		if (is_empty_source(o))
 		{
