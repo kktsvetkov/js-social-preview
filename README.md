@@ -1,3 +1,5 @@
+![Social Preview](https://github.com/kktsvetkov/kktsvetkov.github.io/raw/b201ac3a73b2d801a6087b29460dc8bd9546c4d8/js-social-preview.png)
+
 # Social Preview
 The **js-social-preview** is a small javascript tool for dynamically creating previews for sharing on social networks.
 
@@ -7,8 +9,8 @@ First, you need to put both files from this project in your HTML file, preferebl
 <html>
 <head>
 ...
-<link rel="stylesheet" href="https://raw.githubusercontent.com/kktsvetkov/js-social-preview/master/social-preview.css" />
-<script type="application/javascript" src="https://raw.githubusercontent.com/kktsvetkov/js-social-preview/master/social-preview.js"></script>
+<link rel="stylesheet" href="/js-social-preview/social-preview.css" />
+<script type="application/javascript" src="/js-social-preview/social-preview.js"></script>
 </head>
 ```
 
