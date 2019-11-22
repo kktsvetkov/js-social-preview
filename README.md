@@ -1,7 +1,7 @@
-![Social Preview](https://github.com/kktsvetkov/kktsvetkov.github.io/raw/b201ac3a73b2d801a6087b29460dc8bd9546c4d8/js-social-preview.png)
-
 # Social Preview
 The **js-social-preview** is a small javascript tool for dynamically creating previews for sharing on social networks.
+
+![Social Preview](https://github.com/kktsvetkov/kktsvetkov.github.io/raw/b201ac3a73b2d801a6087b29460dc8bd9546c4d8/js-social-preview.png)
 
 ## How to use it ?
 First, you need to put both files from this project in your HTML file, preferebly in the ``<head>`` tag:
