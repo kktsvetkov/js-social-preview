@@ -200,7 +200,7 @@ social_preview = new function()
 			o = this.source(from);
 		}
 
-		return this.html(o, 'small);
+		return this.html(o, 'small');
 	}
 
 	/**
