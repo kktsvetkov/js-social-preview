@@ -1,0 +1,127 @@
+/**
+* Social Preview
+*
+* This library is meant to dynamically creating previews for social sharing.
+*
+* @author Kaloyan K. Tsvetkov <kaloyan@kaloyan.info>
+* @license MIT https://opensource.org/licenses/MIT
+*/
+
+div.social-preview-card
+{
+	text-align: left;
+	font-family: "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 12px;
+	background: #fff;
+	color: #222;
+	box-shadow: 0 0 12px rgba(0,0,0,0.5);
+	width: 510px;
+	margin: 0 auto;
+}
+
+div.social-preview-card.social-preview-small
+{
+	font-family: helvetica, arial, sans-serif;
+	height: 158px;
+}
+
+	div.social-preview-card img
+	{
+		background-position: 50% 0;
+		background-size: cover;
+		background-color: #222;
+		display: block;
+		opacity: 1;
+		transition: opacity 0.3s;
+		width: 100%;
+		border: 0;
+	}
+
+	div.social-preview-card.social-preview-small img
+	{
+		width: 158px;
+		height: 158px;
+		float: left;
+		margin-right: 15px;
+	}
+
+	div.social-preview-card.social-preview-big img
+	{
+		height: 300px;
+	}
+
+	div.social-preview-card h1	/* title */
+	{
+		font-size: 16px;
+	    	font-weight: normal;
+		color: #222;
+		margin: 0;
+		letter-spacing: 0px;
+
+		/* small */
+		font: 18px/22px Georgia, serif;
+  		padding: 10px 12px 5px 0;
+		width: 330px;
+		white-space: nowrap;
+	    	overflow: hidden;
+	    	text-overflow: ellipsis;
+	}
+
+	div.social-preview-card.social-preview-big h1
+	{
+		width: auto;
+		font-family: "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		font-size: 14px;
+		font-weight: bold;
+		line-height: 1em;
+		padding: 10px 14px 7px;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+
+	div.social-preview-card p 	/* description */
+	{
+		text-align: left;
+		color: #333;
+
+		/* small */
+		height: 32px;
+	    	margin: 0 12px;
+		width: 330px;
+	    	overflow: hidden;
+	    	text-overflow: ellipsis;
+	}
+
+	div.social-preview-card.social-preview-big p
+	{
+		font-size: 14px;
+	    	line-height: 18px;
+		margin: 0;
+	    	padding: 0 14px 5px;
+		height: auto;
+		width: auto;
+	}
+
+	div.social-preview-card a
+	{
+		color: #90949c;
+	    	font-size: 11px;
+	    	line-height: 11px;
+	    	margin: 65px 0 0;
+	    	text-transform: uppercase;
+
+		display: block;
+		text-decoration:none;
+	}
+
+	div.social-preview-card.social-preview-big a
+	{
+		margin: 0;
+		display: block;
+		color: #8899a6;
+		font-size: 12px;
+	    	line-height: 12px;
+		padding: 2px 14px 16px;
+		text-transform: lowercase;
+	}
