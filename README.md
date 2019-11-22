@@ -15,7 +15,7 @@ First, you need to put both files from this project in your HTML file, preferebl
 To create a preview, pick an element on your page and inject the ``social_preview.small()`` generated HTML into it:
 ```html
 <script>
-document.getElementById('#social_preview').innerHTML = social_preview.small();
+document.getElementById('social_preview').innerHTML = social_preview.small();
 </script>
 ```
 This will create a "small" social preview with the metadata from the page it is on. 
@@ -29,7 +29,7 @@ jQuery('#social_preview').html( social_preview.big() );
 These two examples above read the metadata from the current page the tool is being loaded from. You can also feed the metadata you want to create a social preview. You must pass it as an argument, with these five elements: "title", "description", "site", "url" and "img". Here's an example: 
 ```html
 <script>
-document.getElementById('#social_preview').innerHTML = social_preview.small({
+document.getElementById('social_preview').innerHTML = social_preview.small({
 	title: 'Kaloyan K. Tsvetkov',
 	description: 'self-proclaimed retired software engineer',
 	site: 'kaloyan.info',
