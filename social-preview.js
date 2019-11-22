@@ -49,7 +49,7 @@ social_preview = new function()
 	/**
 	* Fetch the data for the social preview from this page
 	*
-	* @param {string} "from" either empty string, "fb" for reading Open-Graph 
+	* @param {string} "from" either empty string, "fb" for reading Open-Graph
 	*	metadata (used by Facebook), or "tw" for reading Twitter Card metadata
 	* @return {object} object with "title", "description", "url", "site", "img"
 	*/
@@ -195,6 +195,7 @@ social_preview = new function()
 	*/
 	this.small = function(o, from)
 	{
+		from = from || 'fb';
 		if (is_empty_source(o))
 		{
 			o = this.source(from);
@@ -212,6 +213,7 @@ social_preview = new function()
 	*/
 	this.big = function(o, from)
 	{
+		from = from || 'tw';
 		if (is_empty_source(o))
 		{
 			o = this.source(from);
