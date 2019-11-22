@@ -42,12 +42,15 @@ document.getElementById('social_preview').innerHTML = social_preview.small({
 ## How it works ?
 What **js-social-preview** does is to create very basic and simple HTML markup and style it visualy to look like the previews you get when sharing links on social sites. To create the HTML the tool uses metadata, which can either be collected from the current page or fed as an argument.
 
-### social_preview.source(from)
-Use this to extract metadata from the current page. With the ``from`` argument you can point to what type of metadata to use:
+#### social_preview.source(from)
+With ``social_preview.source()`` you extract metadata from the current page. With the ``from`` argument you can point to what type of metadata to use:
 * "fb" - use Open-Graph metadata, prefered by Facebook 
 * "tw" - use Twitter Card metadata
 There are slight differences in the "fb" and "tw" metadata, like using site domain or site name, and that's why you can choose which one to use.
 
-### social_preview.html(o, size)
-The HTML for the previews is created by ``social_preview.html()``, and it takes two arguments: the collected metadata to use, and the size of the preview. There are two built-in sizes for the social previews, "big" and "small". For each of the sizes there is a corresponding set of CSS classes that format the data accordingly.
+#### social_preview.html(o, size)
+The HTML for the previews is created by ``social_preview.html()``, and it takes two arguments: 
+* ``o`` - the collected metadata to use
+* ``size`` - what size the preview should be 
+There are two built-in sizes for the social previews, "big" and "small". For each of the sizes there is a corresponding set of CSS classes that format the data accordingly.
 
